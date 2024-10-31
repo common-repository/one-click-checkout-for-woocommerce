@@ -1,0 +1,27 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+ .mwb_woo_one_click_checkout_shop_wrapper {
+    margin-bottom: 10px;
+}
+ .mwb_woo_one_click_checkout_single_wrapper {
+    margin-top: 10px;
+    clear:both;
+}
+
+/* Front End Fixes */
+
+input#mwb_woo_one_click_checkout_user_button {
+    border: none;
+    padding: 10px 15px;
+    font-size: 14px;
+    letter-spacing: 0.3px;
+    min-width: 80px;
+    float: unset !important;
+    margin-top: 10px;
+}
+
+input#mwb_woo_one_click_checkout_user_button:focus {
+    outline: none;
+}

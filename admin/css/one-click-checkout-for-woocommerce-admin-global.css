@@ -1,0 +1,107 @@
+.mwb_woo_custom_checkbox_message_for_one_click_checkout {
+    font-size: 14px;
+}
+
+/* Backend-fixes General Settings */
+
+.mwb-form-group__control .mdc-text-field-helper-line {
+    margin-top: 10px;
+    padding: 0;
+}
+
+select#mwb_woo_one_click_checkout_cookie_method {
+    padding: 13px 30px 13px 10px !important;
+}
+
+@media screen and (max-width: 768px) {
+    .mwocc-secion-wrap .mwb-form-group {
+        display: block;
+    }
+
+    .mwocc-secion-wrap .mwb-form-group .mwb-form-group__control {
+        max-width: unset;
+        margin-top: 15px;
+    }
+
+    select#mwb_woo_one_click_checkout_cookie_method {
+        margin-top: 10px;
+        display: block;
+    }
+}
+
+/* Backend-fixes Product Options Settings */
+
+.mwocc-secion-wrap label {
+    font-family: NunitoSans-SemiBold;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: .3px;
+    max-width: 250px;
+    display: inline-block;
+}
+
+.mwocc-secion-wrap tr {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+}
+
+.mwocc-secion-wrap td {
+    padding: 0 15px 15px 0;
+}
+
+.mwocc-secion-wrap td .select2-container {
+    min-width: 320px;
+}
+
+.mwocc-secion-wrap td .select2-selection {
+    min-height: 50px;
+}
+
+.mwocc-secion-wrap #mwb_woo_one_click_checkout_product_option_setting:focus {
+    outline: none;
+}
+
+.mwocc-secion-wrap #mwb_woo_one_click_checkout_product_option_setting {
+    border: none;
+    padding: 15px 20px;
+    background-color: #2196f3;
+    color: #fff;
+    border-radius: 50px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 200;
+    letter-spacing: 0.5px;
+    margin: 25px 0 0 265px;
+    transition: box-shadow 0.3s ease;
+    text-transform: uppercase;
+}
+
+.mwocc-secion-wrap #mwb_woo_one_click_checkout_product_option_setting:hover {
+    box-shadow: 0 5px 5px -2px rgba(0, 0, 0, 0.3);
+}
+
+
+@media screen and (max-width: 768px) {
+    .mwocc-secion-wrap tr {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .mwocc-secion-wrap #mwb_woo_one_click_checkout_product_option_setting {
+        margin: 25px 0 0 0;
+    }
+
+    .mwocc-secion-wrap td {
+        display: block;
+        width: 100%;
+        padding: 10px 0 0 0;
+    }
+
+    .mwocc-secion-wrap td .select2-container {
+        min-width: 100px;
+        width: 100% !important;
+        margin-bottom: 15px;
+    }
+}
